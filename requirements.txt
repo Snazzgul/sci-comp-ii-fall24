@@ -62,6 +62,7 @@ ptyprocess
 pure-eval
 pyerfa
 Pygments
+pymc3
 pyparsing
 python-dateutil
 pytz
