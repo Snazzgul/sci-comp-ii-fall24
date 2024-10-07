@@ -46,3 +46,6 @@
 [submodule "student_modules/saeed.alshamsi"]
 	path = student_modules/saeed.alshamsi
 	url = git@github.com:Git-Shamsi/scientific_computing_work_fal2024
+[submodule "student_modules/katelyn.ebert"]
+	path = student_modules/katelyn.ebert
+	url = git@github.com:Snazzgul/scicomp_work.git

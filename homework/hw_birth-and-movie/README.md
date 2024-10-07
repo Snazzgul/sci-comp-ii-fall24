@@ -13,7 +13,7 @@ NOTE: The TMDB data is hosted on kaggle.  See the host page for details on the d
 
 1. Find an interesting feature in the US Birth data set that we didn't find in class.  Be sure to describe clearly the feature you found, and include figures to back it up.
 
-1. In class we found that the total number of births roughly correlated with the rise of the housing bubble and subsequent great recession.  We also found that people were generally superstitious, having fewer babies on Friday the 13th compared to other weekdays.  Does the level of superstition change with the health of the US economy?
+2. In class we found that the total number of births roughly correlated with the rise of the housing bubble and subsequent great recession.  We also found that people were generally superstitious, having fewer babies on Friday the 13th compared to other weekdays.  Does the level of superstition change with the health of the US economy?
 **564 students**: find some actual public data on the health of the US economy and see if a particular metric tracks with the annual birth rate in the US.
 
-1. Download and parse the TMDB data.  Find an interesting feature in the data.  Be sure to describe clearly the feature you found, and include figures to back it up.
+3. Download and parse the TMDB data.  Find an interesting feature in the data.  Be sure to describe clearly the feature you found, and include figures to back it up.
