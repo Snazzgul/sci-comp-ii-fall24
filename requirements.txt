@@ -11,6 +11,7 @@ clu
 comm
 contextlib2
 contourpy
+corner
 cycler
 daft
 debugpy

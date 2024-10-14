@@ -1,4 +1,4 @@
-# Week 2 HW
+# HW 3
 
 The purpose of this assignment is to get exercise some basic sampling skills, focusing on rejection and importance sampling.
 
@@ -13,6 +13,8 @@ p(x) = 0.164\exp{\left(-\frac{(x-10)^4}{2\cdot 8^2}\right)}
 
 3. Calculate the expectation value of $x^2$.
 
+4. Return to the Sampling section of the `Lecture_4_multivar_central.ipynb` and work through the examples there. 
+
 ## Grad students:
 
-Revisit the importance sampling example from the Intro to Sampling notebook from class.  There we demonstrated the use of importance sampling to estimate the expectation value of some function of our random variable.  We could also use the weights we computed to probabilistically choose samples from the sampling distribution to keep, in an effort to "reweigh" the sampling distribution to correspond to the target distribution.  Try to implement this, and see if your resampled distribution's histogram matches the target distribution's probability density function.
+5. Revisit the importance sampling example from the Intro to Sampling notebook from class.  There we demonstrated the use of importance sampling to estimate the expectation value of some function of our random variable.  We could also use the weights we computed to probabilistically choose samples from the sampling distribution to keep, in an effort to "reweigh" the sampling distribution to correspond to the target distribution.  Try to implement this, and see if your resampled distribution's histogram matches the target distribution's probability density function.
