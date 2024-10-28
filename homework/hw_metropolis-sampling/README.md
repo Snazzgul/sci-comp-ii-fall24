@@ -1,4 +1,4 @@
-# Week 3 HW
+# Week 4     HW
 
 The purpose of this assignment is to use the Metropolis algorithm to infer model parameters by sampling a _posterior distribution_.  Let's return to our linear regression problem.
 
@@ -10,15 +10,15 @@ Show the quality of the fit to the data and the associated uncertainty by plotti
 
 Make one or several figures showing your estimate of the 2-D posterior distribution.  Are there correlations between the model parameters?
 
-## 564 Students
+## Graduate Students
 
 Use the same technique for constraining a linear model connecting the color and brightness of nearby main sequence stars observed by Gaia (parallax > 40 mas).  To do this you will need to:
 
 1. Select only the stars from the data set with parallax > 40 mas.
-1. (crudely) remove the white dwarfs (constructing a dividing line by eye is fine for this).
-1. Define your likelihood.  This will be similar to the last linear regression likelihood, except that we don't have uncertainties on measurements of the brightness, Mg.  Even if we did, the scatter about the linear relationship is due to physics not measurement uncertainty, so we'll need to infer it from the data.
-1. Define priors.  Uniform priors on slope and y-intercept are fine, but you'll need to impose a prior on the scatter in $M_G$ about the line, $\sigma_{M_G}$, that ensures it stays positive and doesn't run away.  I suggest a normal distribution with $\sigma \sim 5$ for $\sigma_{M_G} > 0$.
-1. Perform your first 3-D MCMC.
+2. (crudely) remove the white dwarfs (constructing a dividing line by eye is fine for this).
+3. Define your likelihood.  This will be similar to the last linear regression likelihood, except that we don't have uncertainties on measurements of the brightness, Mg.  Even if we did, the scatter about the linear relationship is due to physics not measurement uncertainty, so we'll need to infer it from the data.
+4. Define priors.  Uniform priors on slope and y-intercept are fine, but you'll need to impose a prior on the scatter in $M_G$ about the line, $\sigma_{M_G}$, that ensures it stays positive and doesn't run away.  I suggest a normal distribution with $\sigma \sim 5$ for $\sigma_{M_G} > 0$.
+5. Perform your first 3-D MCMC.
 
 Show the quality of the fit to the data and the associated uncertainty by plotting the lines corresponding to several samples from your chain on top of the data.
 

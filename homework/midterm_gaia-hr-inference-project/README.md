@@ -49,9 +49,9 @@ where we'll be focusing on the objects with $M_G < m_\mathrm{div} (BP-RP) + b_\m
 
     B. Plot the model corresponding to 50 randomly chosen posterior samples from your MCMC.  Discuss the quality of the fit.
 
-    C. **510 students:** Use your posterior estimates to predict the distribution we would expect for $M_G$ values of main sequence stars with color $(BP-RP) = 6$.
+    C. **Graduate students:** Use your posterior estimates to predict the distribution we would expect for $M_G$ values of main sequence stars with color $(BP-RP) = 6$.
 
-3. **510 students:** Explore higher order polynomials a bit.  How does the (qualitative) quality of the fit behave?
+3. **Graduate students:** Explore higher order polynomials a bit.  How does the (qualitative) quality of the fit behave?
 
 # Part II
 
@@ -71,7 +71,7 @@ Now let's bring the white dwarfs back into the mix, focusing on all the objects 
         ```
 2. Plot the two lines for each of 50 randomly chosen posterior samples from your MCMC.  Discuss the quality of the fits, and in particular the constraints.  Is the model able to identify the two populations?
 
-3. **510 students:**
+3. **Graduate students:**
     A. Plot a distribution of the probabilities that each star in our catalog is on the main sequence.  Are there any stars which aren't confidently associated with a particular population?
     B. Relax the priors on slope and y-intercept and run an MCMC:
     ```python
